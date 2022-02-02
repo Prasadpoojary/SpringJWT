@@ -65,7 +65,7 @@ public class JwtValidator extends OncePerRequestFilter
 
             } catch (JwtException e)
             {
-                throw new IllegalStateException("Invalid Token");
+                throw new IllegalStateException("Login again");
             }
 
 
